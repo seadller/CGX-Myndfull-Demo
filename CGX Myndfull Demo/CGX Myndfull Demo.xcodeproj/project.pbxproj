@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182D07A62B3630F500E43B61 /* CGX_Myndfull_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D07A52B3630F500E43B61 /* CGX_Myndfull_DemoApp.swift */; };
+		182D07A82B3630F500E43B61 /* TimersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D07A72B3630F500E43B61 /* TimersListView.swift */; };
+		182D07AA2B3630F600E43B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182D07A92B3630F600E43B61 /* Assets.xcassets */; };
+		182D07AD2B3630F600E43B61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182D07AC2B3630F600E43B61 /* Preview Assets.xcassets */; };
+		182D07B42B3633DB00E43B61 /* TimerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D07B32B3633DB00E43B61 /* TimerDetail.swift */; };
+		182D07B72B3639D300E43B61 /* TimerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D07B62B3639D300E43B61 /* TimerInfo.swift */; };
+		182D07C02B3649FD00E43B61 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D07BF2B3649FD00E43B61 /* NotificationManager.swift */; };
+		182D07C32B364D9200E43B61 /* MPVolumeView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D07C22B364D9200E43B61 /* MPVolumeView+Extension.swift */; };
+		182D07C52B365E5C00E43B61 /* CustomNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D07C42B365E5C00E43B61 /* CustomNavigationLink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		182D07A22B3630F500E43B61 /* CGX Myndfull Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CGX Myndfull Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D07A52B3630F500E43B61 /* CGX_Myndfull_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGX_Myndfull_DemoApp.swift; sourceTree = "<group>"; };
+		182D07A72B3630F500E43B61 /* TimersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersListView.swift; sourceTree = "<group>"; };
+		182D07A92B3630F600E43B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182D07AC2B3630F600E43B61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		182D07B32B3633DB00E43B61 /* TimerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDetail.swift; sourceTree = "<group>"; };
+		182D07B62B3639D300E43B61 /* TimerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerInfo.swift; sourceTree = "<group>"; };
+		182D07BF2B3649FD00E43B61 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		182D07C22B364D9200E43B61 /* MPVolumeView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MPVolumeView+Extension.swift"; sourceTree = "<group>"; };
+		182D07C42B365E5C00E43B61 /* CustomNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationLink.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182D079F2B3630F500E43B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182D07992B3630F500E43B61 = {
+			isa = PBXGroup;
+			children = (
+				182D07A42B3630F500E43B61 /* CGX Myndfull Demo */,
+				182D07A32B3630F500E43B61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182D07A32B3630F500E43B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182D07A22B3630F500E43B61 /* CGX Myndfull Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182D07A42B3630F500E43B61 /* CGX Myndfull Demo */ = {
+			isa = PBXGroup;
+			children = (
+				182D07AB2B3630F600E43B61 /* Preview Content */,
+				182D07A92B3630F600E43B61 /* Assets.xcassets */,
+				182D07A52B3630F500E43B61 /* CGX_Myndfull_DemoApp.swift */,
+				182D07C12B364D8200E43B61 /* Extensions */,
+				182D07BE2B3649E000E43B61 /* Managers */,
+				182D07B52B3639C800E43B61 /* Models */,
+				182D07B82B3639E200E43B61 /* Views */,
+			);
+			path = "CGX Myndfull Demo";
+			sourceTree = "<group>";
+		};
+		182D07AB2B3630F600E43B61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				182D07AC2B3630F600E43B61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		182D07B52B3639C800E43B61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				182D07B62B3639D300E43B61 /* TimerInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		182D07B82B3639E200E43B61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				182D07A72B3630F500E43B61 /* TimersListView.swift */,
+				182D07B32B3633DB00E43B61 /* TimerDetail.swift */,
+				182D07C42B365E5C00E43B61 /* CustomNavigationLink.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		182D07BE2B3649E000E43B61 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				182D07BF2B3649FD00E43B61 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		182D07C12B364D8200E43B61 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				182D07C22B364D9200E43B61 /* MPVolumeView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182D07A12B3630F500E43B61 /* CGX Myndfull Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182D07B02B3630F600E43B61 /* Build configuration list for PBXNativeTarget "CGX Myndfull Demo" */;
+			buildPhases = (
+				182D079E2B3630F500E43B61 /* Sources */,
+				182D079F2B3630F500E43B61 /* Frameworks */,
+				182D07A02B3630F500E43B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CGX Myndfull Demo";
+			productName = "CGX Myndfull Demo";
+			productReference = 182D07A22B3630F500E43B61 /* CGX Myndfull Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182D079A2B3630F500E43B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					182D07A12B3630F500E43B61 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 182D079D2B3630F500E43B61 /* Build configuration list for PBXProject "CGX Myndfull Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182D07992B3630F500E43B61;
+			productRefGroup = 182D07A32B3630F500E43B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182D07A12B3630F500E43B61 /* CGX Myndfull Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182D07A02B3630F500E43B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182D07AD2B3630F600E43B61 /* Preview Assets.xcassets in Resources */,
+				182D07AA2B3630F600E43B61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182D079E2B3630F500E43B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182D07C02B3649FD00E43B61 /* NotificationManager.swift in Sources */,
+				182D07A82B3630F500E43B61 /* TimersListView.swift in Sources */,
+				182D07C32B364D9200E43B61 /* MPVolumeView+Extension.swift in Sources */,
+				182D07C52B365E5C00E43B61 /* CustomNavigationLink.swift in Sources */,
+				182D07A62B3630F500E43B61 /* CGX_Myndfull_DemoApp.swift in Sources */,
+				182D07B42B3633DB00E43B61 /* TimerDetail.swift in Sources */,
+				182D07B72B3639D300E43B61 /* TimerInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		182D07AE2B3630F600E43B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182D07AF2B3630F600E43B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182D07B12B3630F600E43B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CGX Myndfull Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 376L4G947R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cgx.myndfull.demo.CGX-Myndfull-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182D07B22B3630F600E43B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CGX Myndfull Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 376L4G947R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cgx.myndfull.demo.CGX-Myndfull-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182D079D2B3630F500E43B61 /* Build configuration list for PBXProject "CGX Myndfull Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182D07AE2B3630F600E43B61 /* Debug */,
+				182D07AF2B3630F600E43B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182D07B02B3630F600E43B61 /* Build configuration list for PBXNativeTarget "CGX Myndfull Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182D07B12B3630F600E43B61 /* Debug */,
+				182D07B22B3630F600E43B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182D079A2B3630F500E43B61 /* Project object */;
+}
