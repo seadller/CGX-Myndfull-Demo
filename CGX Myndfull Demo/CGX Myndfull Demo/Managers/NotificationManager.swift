@@ -35,7 +35,7 @@ final class NotificationManager {
     private func applyFinalLogic(with id: String, percentage: String) {
         switch id {
         case TimerType.A.rawValue:
-            guard let percentageValue = Int(percentage), percentageValue >= 20 else { return }
+            guard let percentageValue = Float(percentage), percentageValue >= 20 else { return }
             UIScreen.main.brightness = CGFloat(percentageValue / 100)
         case TimerType.B.rawValue:
             guard let percentageValue = Float(percentage) else { return }
